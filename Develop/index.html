@@ -23,6 +23,10 @@
   </head>
 
   <body>
+    <!--jQuery and Moment-->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
@@ -31,14 +35,21 @@
     <div class="container">
       <!-- Timeblocks go here -->
     </div>
-    <!--display current day at top of calendar-->
+
+    <!--jQuery-->
+    <script type="text/javascript">
+    //display currentDay at top of calendar
+    $(document).ready(function() {
+      var now = moment();
+      console.log(now);
+    });
+    </script>
     <!--present timeblocks for standard business hours-->
     <!--color code timeblocks for past, present, and future-->
     <!--enter an event into timeblock-->
     <!--saved edited event into local storage-->
     <!--saved events persist-->
-
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    
+    
   </body>
 </html>
