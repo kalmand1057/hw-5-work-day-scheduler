@@ -34,21 +34,86 @@
     </header>
     <div class="container">
       <!-- Timeblocks go here -->
+      <div class="row">
+        <div class="col-1">9AM</div>
+        <div class="col-10">your event</div>
+        <div class="col-1">
+          <button type="button" class="btn btn-info">Save</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1">10AM</div>
+        <div class="col-10">your event</div>
+        <div class="col-1">
+          <button type="button" class="btn btn-info">Save</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1">11AM</div>
+        <div class="col-10">your event</div>
+        <div class="col-1">
+          <button type="button" class="btn btn-info">Save</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1">12PM</div>
+        <div class="col-10">your event</div>
+        <div class="col-1">
+          <button type="button" class="btn btn-info">Save</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1">1PM</div>
+        <div class="col-10">your event</div>
+        <div class="col-1">
+          <button type="button" class="btn btn-info">Save</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1">2PM</div>
+        <div class="col-10">your event</div>
+        <div class="col-1">
+          <button type="button" class="btn btn-info">Save</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1">3PM</div>
+        <div class="col-10">your event</div>
+        <div class="col-1">
+          <button type="button" class="btn btn-info">Save</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1">4PM</div>
+        <div class="col-10">your event</div>
+        <div class="col-1">
+          <button type="button" class="btn btn-info">Save</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1">5PM</div>
+        <div class="col-10">your event</div>
+        <div class="col-1">
+          <button type="button" class="btn btn-info">Save</button>
+        </div>
+      </div>
     </div>
 
     <!--jQuery-->
     <script type="text/javascript">
     //display currentDay at top of calendar
-    $(document).ready(function() {
-      var now = moment().format("dddd, MMMM Do YYYY");
+    var now = moment().format("dddd, MMMM Do YYYY");
       $("#currentDay").text(now);
-    });
+
+
+    //present timeblocks for standard business hours 9am to 5pm
+        
+    //color code timeblocks for past, present, and future
+    //enter an event into timeblock
+    //saved edited event into local storage
+    //saved events persist
     </script>
-    <!--present timeblocks for standard business hours-->
-    <!--color code timeblocks for past, present, and future-->
-    <!--enter an event into timeblock-->
-    <!--saved edited event into local storage-->
-    <!--saved events persist-->
+    
     
     
   </body>
